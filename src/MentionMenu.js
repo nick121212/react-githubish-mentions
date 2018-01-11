@@ -23,7 +23,7 @@ const MentionMenu = props => {
     <div style={menuStyle} className={className}>
       {options.map((option, idx) => {
         return (
-          <div key={idx} onClick={selectItem(idx)} onMouseOver={hoverItem(idx)}>
+          <div key={idx} onMouseDown={selectItem(idx)} onMouseOver={hoverItem(idx)}>
             <Item active={active === idx} {...option} />
           </div>
         );
