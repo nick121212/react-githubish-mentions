@@ -1,5 +1,5 @@
 {
-  "name": "react-githubish-mentions",
+  "name": "react-githubish-mentions-nick",
   "version": "1.2.0",
   "description": "a mentions component kinda like GitHub's. But made in react.",
   "main": "./lib/index.js",
